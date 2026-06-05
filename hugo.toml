@@ -1,0 +1,16 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "Butter Freelance Pipeline"
+theme = "custom"
+
+[params]
+  description = "Client pipeline for freelancers: finding leads, pricing, proposals, and turning one-off work into retainers."
+  author = "Editorial Team"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
